@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Hide ads on learncpp.com",
   "version": "0.1.1",
   "description": "Hides ads on learncpp.com.  Use if your adblocker removes the ads, but leaves the large ad container elements.",
@@ -9,7 +9,7 @@
       "js": ["scripts.js"]
     }
   ],
-  "page_action": {
+  "action": {
     "default_icon": "icon.png"
   }
 }
